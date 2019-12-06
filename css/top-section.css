@@ -1,0 +1,31 @@
+.top-section__container {
+  max-width: 70%;
+  box-sizing: border-box;
+  margin: 50px auto;
+}
+
+.big-text {
+  font-size: 36px;
+  font-weight: 600;
+  font-style: italic;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  line-height: 1.6em;
+  margin-left: 20%;
+}
+
+.top-section__container figure img {
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+.top-section__container figure figcaption {
+  color: #666;
+  font-size: 14px;
+  text-align: left;
+  max-width: 80%;
+  line-height: 1.4em;
+}
+
+.top-section__container figure figcaption span {
+  opacity: 0.7;
+}
