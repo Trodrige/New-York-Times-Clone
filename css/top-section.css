@@ -165,3 +165,154 @@
   color: #326891;
   text-decoration: none;
 }
+
+/* The Editor's Pick section */
+.aside-ep {
+  margin-top: 500px;
+}
+
+.aside-ep-1, .aside-ep-2, .aside-ep-3 {
+  height: 85px;
+  margin: 13px 0 0 0;
+}
+
+.aside-ep-i {
+  width: 85px;
+  float: left;
+  padding: 0 4px 0 0;
+}
+
+.inflation-title {
+  width: 98%;
+  margin: 0 0 0 -150px;
+}
+
+.inflation-title > p {
+  color: #666;
+}
+
+
+/* The theory of inflation section */
+.inflation-theory {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/inflation-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 95%;
+  margin: 0 0 40px -150px;
+}
+
+.upper-section, .lower-section {
+  width: 100%;
+  height: 50%;
+  vertical-align: bottom;
+}
+
+.upper-section > p {
+  width: 23%;
+  float: left;
+  height: 50%;
+  font-size: 12px;
+  margin-top: 17%;
+  padding: 9px;
+}
+
+.lower-section > p {
+  width: 23%;
+  float: left;
+  height: 50%;
+  font-size: 12px;
+  margin-top: 17%;
+  padding: 9px;
+}
+
+.image-credit {
+  clear: both;
+}
+
+.image-credit > hr {
+  width: 10%;
+  float: left;
+}
+
+.image-credit-name {
+  clear: both;
+  color: #666;
+}
+
+/* Video in article */
+.video-description, .article-image-caption {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #666;
+}
+
+.video-section-link, .article-image-credit {
+  text-decoration: none;
+  font-size: 0.85rem;
+  color: #888;
+  letter-spacing: 0.01em;
+}
+
+/* Image in article section */
+.article-image {
+  width: 130%;
+  margin: 0 5px 0 -10%;
+}
+
+/* The reference section */
+.reference {
+  width: 90%;
+  color: #888;
+  line-height: 1.3em;
+}
+
+.reference > p > a {
+  color: #888;
+}
+
+/* Read comment button */
+.read-comment-button {
+  width: 40%;
+  height: 45px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  background: rgb(86, 123, 149);
+  border: 1px solid rgb(86, 123, 149);
+  border-radius: 4px;
+}
+
+.read-comment-button:hover {
+  background: #326891;
+}
+
+/* The article list sections */
+.article-listing-section {
+  display: inline;
+}
+
+/* More in space article listings */
+.more-in-space, .editors-pick {
+  border-top: 1px solid black;
+}
+
+.more-articles {
+  display: block;
+
+}
+
+.article-item {
+  display: inline;
+  float: left;
+  width: 33.333%;
+}
+
+
+
+/* Most popular aside section */
+.most-popular {
+  display: block;
+}
