@@ -1,0 +1,112 @@
+.footer {
+  width: 85%;
+  margin: 30px auto;
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  position: relative;
+}
+
+.footer::before {
+  content: " ";
+  border-top: 2px solid #ccc;
+  width: 100%;
+  display: block;
+  position: absolute;
+  top: -5px;
+}
+
+.footer-icon {
+  max-width: 10px;
+  max-height: 10px;
+}
+
+.footer-logo {
+  width: 200px;
+}
+
+.footer-top-section {
+  position: relative;
+}
+
+.home-link {
+  color: #326891;
+  text-decoration: none;
+  float: right;
+  font-size: 11px;
+  vertical-align: baseline;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.footer-menu {
+  width: 100%;
+  margin: 20px auto;
+  box-sizing: border-box;
+  float: left;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.footer-menu .list {
+  width: 75%;
+}
+
+.footer-menu .list div {
+  width: 20%;
+  float: left;
+}
+
+.footer-menu .list div h3,
+.subscribe h3 {
+  font-weight: 700;
+  font-size: 13px;
+  height: 25px;
+  line-height: 15px;
+}
+
+.footer-menu .list div ul li,
+.subscribe li {
+  font-size: 14px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.subscribe li {
+  font-size: 11px;
+  text-transform: capitalize;
+}
+
+.footer-menu .list div ul li:hover,
+.subscribe li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer-menu aside {
+  width: 20%;
+  float: right;
+  padding-left: 10px;
+  border-left: 1px solid #ccc;
+}
+
+.subscribe .bold-link {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 15px;
+  height: 25px;
+}
+
+.copyright {
+  margin: auto;
+  display: block;
+  width: 80%;
+}
+
+.copyright .link {
+  font-size: 11px;
+  color: rgb(133, 133, 133);
+}

@@ -1,6 +1,7 @@
 @import url("./reset.css");
 @import url("./header.css");
 @import url("./top-section.css");
+@import url("./footer.css");
 
 body {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
