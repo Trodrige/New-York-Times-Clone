@@ -1,0 +1,22 @@
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./top-section.css");
+@import url("./bottom-section.css");
+@import url("./footer.css");
+
+body {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  box-sizing: border-box;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

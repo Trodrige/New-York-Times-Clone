@@ -1,0 +1,305 @@
+.top-section__container {
+  max-width: 85%;
+  box-sizing: border-box;
+  margin: 50px auto;
+}
+
+.big-text {
+  font-size: 36px;
+  font-weight: 600;
+  font-style: italic;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  line-height: 1.6em;
+  margin-left: 20%;
+}
+
+.action-icons span {
+  width: 30px;
+  height: 30px;
+  background: #eee;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 15px;
+}
+
+.top-section__container figure img {
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+.top-section__container figure figcaption {
+  color: #666;
+  font-size: 14px;
+  text-align: left;
+  max-width: 80%;
+  line-height: 1.4em;
+}
+
+.top-section__container figure figcaption span {
+  opacity: 0.7;
+}
+
+.author-details {
+  width: 50%;
+  margin: 50px 0 50px 25%;
+}
+
+.author-details h4 {
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.author-name {
+  color: black;
+  text-decoration-color: #ccc;
+}
+
+.author-name:hover {
+  text-decoration: none;
+}
+
+.author-details-buttom {
+  margin: 20px auto;
+}
+
+.author-details-buttom p {
+  font-size: 12px;
+  line-height: 1;
+  display: inline-block;
+}
+
+.action-icons {
+  float: right;
+}
+
+.action-icons span:hover {
+  background: white;
+  border: 1px solid #eee;
+}
+
+.action-icons span i {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.inflation-title > p {
+  color: #666;
+}
+
+.inflation-theory p {
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 17px;
+}
+
+.article-section {
+  margin-left: 25%;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+}
+
+.a-header {
+  font-weight: bold;
+}
+
+.upper-section > p {
+  width: 23%;
+  float: left;
+  height: 50%;
+  font-size: 12px;
+  margin-top: 23%;
+  padding: 9px;
+}
+
+.lower-section > p {
+  width: 23%;
+  float: left;
+  height: 50%;
+  font-size: 12px;
+  margin-top: 17%;
+  padding: 9px;
+}
+
+.article-section aside {
+  float: right;
+  display: block;
+  margin-top: 30%;
+  width: 20%;
+}
+
+.article-section aside h2 {
+  font-weight: bold;
+  margin-bottom: 5px;
+  line-height: 1.5rem;
+}
+
+.article-section aside p {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 0;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  color: rgb(102, 102, 102);
+}
+
+.article-section aside button {
+  display: block;
+  width: 100%;
+  height: 35px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  background: rgb(86, 123, 149);
+  border: 1px solid rgb(86, 123, 149);
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.article-section aside button:hover {
+  background: #326891;
+}
+
+.article-section article {
+  width: 65%;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.article-section article p {
+  margin-bottom: 20px;
+}
+
+.article-section-link {
+  color: #326891;
+}
+
+.article-section-link:hover {
+  text-decoration: none;
+}
+
+.unlock-more {
+  width: 35%;
+  margin: 10px auto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.unlock-more hr {
+  width: 30%;
+  margin: 20px 25%;
+  border: 0.5px solid #ccc;
+}
+
+.unlock-more a {
+  color: #326891;
+  text-decoration: none;
+}
+
+.aside-ep {
+  margin-top: 500px;
+}
+
+.aside-ep-1,
+.aside-ep-2,
+.aside-ep-3 {
+  height: 85px;
+  margin: 13px 0 0 0;
+}
+
+.aside-ep-i {
+  width: 85px;
+  float: left;
+  padding: 0 4px 0 0;
+}
+
+.inflation-title {
+  width: 98%;
+  margin: 0 0 15px -150px;
+}
+
+.inflation-theory {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/inflation-image.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 95%;
+  margin: 0 0 40px -150px;
+}
+
+.upper-section,
+.lower-section {
+  width: 100%;
+  height: 50%;
+  vertical-align: bottom;
+}
+
+.image-credit {
+  clear: both;
+}
+
+.image-credit > hr {
+  width: 10%;
+  float: left;
+}
+
+.image-credit-name {
+  clear: both;
+  color: #666;
+}
+
+.video-description,
+.article-image-caption {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #666;
+}
+
+.video-section-link,
+.article-image-credit {
+  text-decoration: none;
+  font-size: 0.85rem;
+  color: #888;
+  letter-spacing: 0.01em;
+}
+
+.article-image {
+  width: 130%;
+  margin: 0 5px 0 -10%;
+}
+
+.reference {
+  width: 70%;
+  color: #888;
+  line-height: 1em;
+  font-size: 0.75rem;
+}
+
+.reference > p > a {
+  color: #888;
+}
+
+.read-comment-button {
+  width: 40%;
+  height: 45px;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  background: rgb(86, 123, 149);
+  border: 1px solid rgb(86, 123, 149);
+  border-radius: 4px;
+}
+
+.read-comment-button:hover {
+  background: #326891;
+}
+
+.social-share {
+  width: 70%;
+}
