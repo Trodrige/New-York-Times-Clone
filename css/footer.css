@@ -3,7 +3,6 @@
   margin: 30px auto;
   border-top: 1px solid #ccc;
   padding-top: 10px;
-  position: relative;
 }
 
 .footer::before {
@@ -117,11 +116,28 @@
   color: rgb(133, 133, 133);
 }
 
-/* The horizontal line in the sixth footer column */
 .education-rate {
   border-bottom: 1px solid #ccc;
 }
 
 .mobile-apps {
   padding-top: 10px;
+}
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  border-top: 2px solid black;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  font-size: 15px;
+}
+
+.fixed-footer span {
+  padding-left: 200px;
+  text-transform: uppercase;
+  font-weight: bold;
 }

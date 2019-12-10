@@ -1,9 +1,12 @@
 header {
   background: #fff;
   border-bottom: 1px solid #e2e2e2;
-  padding: 2px 15px 3px;
-  position: relative;
+  padding: 2px 25px 3px 25px;
+  position: fixed;
+  top: 0;
+  width: 100%;
   box-sizing: border-box;
+  z-index: 9999999;
 }
 
 .logo {
@@ -11,8 +14,13 @@ header {
   width: 200px;
   display: inline-block;
   position: relative;
-  left: 23%;
+  left: 27%;
   top: 10px;
+}
+
+.logo,
+.footer-logo {
+  cursor: pointer;
 }
 
 .nav-bar__left {

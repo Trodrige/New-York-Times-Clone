@@ -6,6 +6,10 @@
   display: block;
 }
 
+.editors-pick {
+  margin-top: 120px;
+}
+
 .article-listing-section::before,
 .article-listing-section::after,
 .editors-pick::before,
@@ -89,7 +93,6 @@
   cursor: pointer;
 }
 
-/* The most popular aside section */
 .most-popular-item {
   border-top: 1px solid rgb(226, 226, 226);
   padding: 15px 0 0 0;
