@@ -184,7 +184,7 @@
 
 .inflation-title {
   width: 98%;
-  margin: 0 0 0 -150px;
+  margin: 0 0 15px -150px;
 }
 
 .inflation-title > p {
@@ -215,7 +215,7 @@
   float: left;
   height: 50%;
   font-size: 12px;
-  margin-top: 17%;
+  margin-top: 23%;
   padding: 9px;
 }
 
@@ -291,7 +291,14 @@
 
 /* The article list sections */
 .article-listing-section {
-  display: inline;
+  /* display: inline; */
+}
+
+.more-editor-sections {
+  /* display: block; */
+  width: 69%;
+  float: left;
+  background-color: red;
 }
 
 /* More in space article listings */
@@ -299,13 +306,28 @@
   border-top: 1px solid black;
 }
 
-.more-articles {
-  display: block;
+.more-in-space {
+  /* display: inline; */
+}
 
+.more-articles {
+  /* display: block; */
+}
+
+.article-row-2 {
+  clear: both;
+}
+
+.editors-pick {
+  /* clear: both; */
+}
+
+.editors-row, .editors-pick {
+  /* display: inline; */
 }
 
 .article-item {
-  display: inline;
+  /* display: inline; */
   float: left;
   width: 33.333%;
 }
@@ -314,5 +336,8 @@
 
 /* Most popular aside section */
 .most-popular {
-  display: block;
+  /* display: block; */
+  width: 30%;
+  float: right;
+  background-color: green;
 }
