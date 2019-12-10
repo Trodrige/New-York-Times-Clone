@@ -1,6 +1,7 @@
 @import url("./reset.css");
 @import url("./header.css");
 @import url("./top-section.css");
+@import url("./bottom-section.css");
 @import url("./footer.css");
 
 body {
@@ -17,4 +18,3 @@ body {
   cursor: pointer;
   text-decoration: underline;
 }
-

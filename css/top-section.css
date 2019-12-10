@@ -171,7 +171,9 @@
   margin-top: 500px;
 }
 
-.aside-ep-1, .aside-ep-2, .aside-ep-3 {
+.aside-ep-1,
+.aside-ep-2,
+.aside-ep-3 {
   height: 85px;
   margin: 13px 0 0 0;
 }
@@ -191,7 +193,6 @@
   color: #666;
 }
 
-
 /* The theory of inflation section */
 .inflation-theory {
   display: block;
@@ -204,7 +205,8 @@
   margin: 0 0 40px -150px;
 }
 
-.upper-section, .lower-section {
+.upper-section,
+.lower-section {
   width: 100%;
   height: 50%;
   vertical-align: bottom;
@@ -243,13 +245,15 @@
 }
 
 /* Video in article */
-.video-description, .article-image-caption {
+.video-description,
+.article-image-caption {
   font-size: 0.9375rem;
   line-height: 1.25rem;
   color: #666;
 }
 
-.video-section-link, .article-image-credit {
+.video-section-link,
+.article-image-credit {
   text-decoration: none;
   font-size: 0.85rem;
   color: #888;
@@ -264,9 +268,10 @@
 
 /* The reference section */
 .reference {
-  width: 90%;
+  width: 70%;
   color: #888;
-  line-height: 1.3em;
+  line-height: 1em;
+  font-size: 0.75rem;
 }
 
 .reference > p > a {
@@ -289,55 +294,6 @@
   background: #326891;
 }
 
-/* The article list sections */
-.article-listing-section {
-  /* display: inline; */
-}
-
-.more-editor-sections {
-  /* display: block; */
-  width: 69%;
-  float: left;
-  background-color: red;
-}
-
-/* More in space article listings */
-.more-in-space, .editors-pick {
-  border-top: 1px solid black;
-}
-
-.more-in-space {
-  /* display: inline; */
-}
-
-.more-articles {
-  /* display: block; */
-}
-
-.article-row-2 {
-  clear: both;
-}
-
-.editors-pick {
-  /* clear: both; */
-}
-
-.editors-row, .editors-pick {
-  /* display: inline; */
-}
-
-.article-item {
-  /* display: inline; */
-  float: left;
-  width: 33.333%;
-}
-
-
-
-/* Most popular aside section */
-.most-popular {
-  /* display: block; */
-  width: 30%;
-  float: right;
-  background-color: green;
+.social-share {
+  width: 70%;
 }

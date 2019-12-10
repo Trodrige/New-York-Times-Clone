@@ -1,0 +1,85 @@
+.article-listing-section {
+  width: 85%;
+  margin: 20px auto;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+}
+
+.article-listing-section::before,
+.article-listing-section::after,
+.editors-pick::before,
+.editors-pick::after {
+  content: "";
+  display: table;
+}
+
+.article-listing-section::after,
+.editors-pick::before {
+  clear: both;
+}
+
+.article-listing-section .right-section {
+  width: 25%;
+  box-sizing: border-box;
+  float: right;
+  clear: right;
+}
+
+.article-listing-section .left-section {
+  width: 70%;
+  float: left;
+}
+
+.more-img {
+  width: 100%;
+  height: 70%;
+}
+
+.article-item,
+.editors-item {
+  width: 32.16%;
+  box-sizing: border-box;
+  float: left;
+  clear: right;
+  height: 300px;
+  margin: 5px 10px 5px 0;
+}
+
+.left-section hr,
+.right-section hr {
+  color: black;
+  margin: 10px 0;
+}
+
+.label {
+  display: block;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.caption {
+  text-align: right;
+  font-size: 11px;
+  line-height: 1.23em;
+  margin: 3px 0 15px 0px;
+  color: rgb(153, 153, 153);
+}
+
+.date {
+  color: rgb(153, 153, 153);
+  font-size: 0.75rem;
+  margin-top: 10px;
+}
+
+.main-text {
+  font-size: 1rem;
+  line-height: 20px;
+  color: rgb(18, 18, 18);
+  font-weight: bold;
+}
+
+.main-text:hover {
+  color: rgb(153, 153, 153);
+  cursor: pointer;
+}
