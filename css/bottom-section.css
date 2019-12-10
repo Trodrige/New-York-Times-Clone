@@ -27,7 +27,7 @@
 }
 
 .article-listing-section .left-section {
-  width: 70%;
+  width: 73%;
   float: left;
 }
 
@@ -52,6 +52,10 @@
   margin: 10px 0;
 }
 
+.left-section hr {
+  width: 98.6%;
+}
+
 .label {
   display: block;
   font-weight: 700;
@@ -62,7 +66,7 @@
   text-align: right;
   font-size: 11px;
   line-height: 1.23em;
-  margin: 3px 0 15px 0px;
+  margin: 3px 0 15px 0;
   color: rgb(153, 153, 153);
 }
 
@@ -73,6 +77,7 @@
 }
 
 .main-text {
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-size: 1rem;
   line-height: 20px;
   color: rgb(18, 18, 18);
@@ -82,4 +87,14 @@
 .main-text:hover {
   color: rgb(153, 153, 153);
   cursor: pointer;
+}
+
+/* The most popular aside section */
+.most-popular-item {
+  border-top: 1px solid rgb(226, 226, 226);
+  padding: 15px 0 0 0;
+}
+
+.mp-text {
+  text-decoration: none;
 }

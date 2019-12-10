@@ -13,6 +13,16 @@
   margin-left: 20%;
 }
 
+.action-icons span {
+  width: 30px;
+  height: 30px;
+  background: #eee;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 15px;
+}
+
 .top-section__container figure img {
   max-width: 100%;
   margin-top: 20px;
@@ -64,16 +74,6 @@
   float: right;
 }
 
-.action-icons span {
-  width: 30px;
-  height: 30px;
-  background: #eee;
-  display: inline-block;
-  border-radius: 50%;
-  position: relative;
-  margin-right: 15px;
-}
-
 .action-icons span:hover {
   background: white;
   border: 1px solid #eee;
@@ -85,8 +85,42 @@
   left: 25%;
 }
 
+.inflation-title > p {
+  color: #666;
+}
+
+.inflation-theory p {
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 17px;
+}
+
+.upper-section > p {
+  width: 23%;
+  float: left;
+  height: 50%;
+  font-size: 12px;
+  margin-top: 23%;
+  padding: 9px;
+}
+
+.lower-section > p {
+  width: 23%;
+  float: left;
+  height: 50%;
+  font-size: 12px;
+  margin-top: 17%;
+  padding: 9px;
+}
+
 .article-section {
   margin-left: 25%;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+}
+
+.a-header {
+  font-weight: bold;
 }
 
 .article-section aside {
@@ -106,7 +140,7 @@
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-style: normal;
   font-weight: 500;
-  margin-left: 0px;
+  margin-left: 0;
   font-size: 0.8125rem;
   line-height: 1rem;
   color: rgb(102, 102, 102);
@@ -189,10 +223,6 @@
   margin: 0 0 15px -150px;
 }
 
-.inflation-title > p {
-  color: #666;
-}
-
 /* The theory of inflation section */
 .inflation-theory {
   display: block;
@@ -210,24 +240,6 @@
   width: 100%;
   height: 50%;
   vertical-align: bottom;
-}
-
-.upper-section > p {
-  width: 23%;
-  float: left;
-  height: 50%;
-  font-size: 12px;
-  margin-top: 23%;
-  padding: 9px;
-}
-
-.lower-section > p {
-  width: 23%;
-  float: left;
-  height: 50%;
-  font-size: 12px;
-  margin-top: 17%;
-  padding: 9px;
 }
 
 .image-credit {
