@@ -1,4 +1,4 @@
-.top-section__container {
+.top-section-container {
   max-width: 85%;
   box-sizing: border-box;
   margin: 50px auto;
@@ -23,12 +23,12 @@
   margin-right: 15px;
 }
 
-.top-section__container figure img {
+.top-section-container figure img {
   max-width: 100%;
   margin-top: 20px;
 }
 
-.top-section__container figure figcaption {
+.top-section-container figure figcaption {
   color: #666;
   font-size: 14px;
   text-align: left;
@@ -36,7 +36,7 @@
   line-height: 1.4em;
 }
 
-.top-section__container figure figcaption span {
+.top-section-container figure figcaption span {
   opacity: 0.7;
 }
 
@@ -81,8 +81,15 @@
 
 .action-icons span i {
   position: absolute;
-  top: 25%;
-  left: 25%;
+  top: 23%;
+  left: 31%;
+}
+
+.fa-twitter,
+.fa-envelope,
+.fa-share,
+.fa-comment {
+  left: 25% !important;
 }
 
 .inflation-title > p {
@@ -135,7 +142,6 @@
   margin-bottom: 5px;
   line-height: 1.5rem;
 }
-
 .article-section aside p {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-style: normal;

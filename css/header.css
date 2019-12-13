@@ -14,7 +14,7 @@ header {
   width: 200px;
   display: inline-block;
   position: relative;
-  left: 27%;
+  left: 24%;
   top: 10px;
 }
 
@@ -23,7 +23,7 @@ header {
   cursor: pointer;
 }
 
-.nav-bar__left {
+.nav-bar-left {
   display: inline-block;
   margin: 0 10px 5px 5px;
 }
@@ -32,7 +32,7 @@ header {
   margin-left: 20px;
 }
 
-.nav-bar__left a {
+.nav-bar-left a {
   display: inline-block;
   margin: 5px 20px;
   font-weight: bolder;
@@ -41,7 +41,7 @@ header {
   line-height: 17px;
 }
 
-.nav-bar__right {
+.nav-bar-right {
   display: inline-block;
   float: right;
   margin-right: 10px;
